@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "build": { "dockerfile": "Dockerfile" },
   "remoteUser": "vscode",
   "mounts": [
     "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached"
